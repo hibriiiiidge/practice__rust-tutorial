@@ -1,0 +1,23 @@
+{
+  "name": "rust-tutorial",
+  "build": {
+      "dockerfile": "../Dockerfile"
+  },
+  "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash",
+      "terminal.integrated.profiles.linux": {
+          "bash": {
+              "path": "/usr/bin/bash",
+              "args": [
+                  "-l"
+              ]
+          }
+      },
+  },
+  "extensions": [
+      "matklad.rust-analyzer",
+      "vadimcn.vscode-lldb",
+      "rebornix.ruby",
+      "ms-python.python"
+  ],
+}
